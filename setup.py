@@ -18,7 +18,7 @@ setup(
     long_description=readme,
     author='Mithlesh Pandey',
     author_email='mithlesh.pandey@gmail.com',
-    url='https://github.com/kennethreitz/samplemod',
+    url='https://github.com/mithleshp/event-ticketing-system',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))
 )
