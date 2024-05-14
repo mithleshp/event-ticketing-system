@@ -12,12 +12,12 @@ with open('LICENSE') as f:
     license = f.read()
 
 setup(
-    name='sample',
+    name='event_ticketing_system',
     version='0.1.0',
-    description='Sample package for Python-Guide.org',
+    description='Event Ticketing System',
     long_description=readme,
-    author='Kenneth Reitz',
-    author_email='me@kennethreitz.com',
+    author='Mithlesh Pandey',
+    author_email='mithlesh.pandey@gmail.com',
     url='https://github.com/kennethreitz/samplemod',
     license=license,
     packages=find_packages(exclude=('tests', 'docs'))

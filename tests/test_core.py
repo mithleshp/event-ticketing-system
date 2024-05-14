@@ -1,6 +1,4 @@
-# -*- coding: utf-8 -*-
-
-from .context import sample
+from event_ticketing_system import core
 
 import unittest
 
@@ -8,7 +6,7 @@ import unittest
 class BasicTestSuite(unittest.TestCase):
     """Basic test cases."""
 
-    def test_absolute_truth_and_meaning(self):
+    def test_get_db_connection(self):
         assert True
 
 
